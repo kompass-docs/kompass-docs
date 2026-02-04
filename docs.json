@@ -1,23 +1,29 @@
 {
   "name": "Kompass AI",
+  "theme": "mint",
+  "colors": {
+    "primary": "#16A34A",
+    "dark": "#15803D"
+  },
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
   },
   "favicon": "/favicon.png",
-"navigation": {
-  "tabs": [
-    {
-      "tab": "Guides",
-      "groups": [
-        {
-          "group": "Getting started",
-          "pages": [
-            "introduction",
-            "features"
-          ]
-        }
-      ]
-    }
-  ]
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Guides",
+        "groups": [
+          {
+            "group": "Getting started",
+            "pages": [
+              "introduction",
+              "features"
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }
