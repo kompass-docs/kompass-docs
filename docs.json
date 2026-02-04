@@ -5,14 +5,19 @@
     "dark": "/logo/dark.svg"
   },
   "favicon": "/favicon.png",
-  "navigation": [
+"navigation": {
+  "tabs": [
     {
-      "group": "Getting Started",
-      "pages": ["introduction", "quickstart"]
-    },
-    {
-      "group": "Features",
-      "pages": ["features/search", "features/analytics"]
+      "tab": "Guides",
+      "groups": [
+        {
+          "group": "Getting started",
+          "pages": [
+            "introduction",
+            "features"
+          ]
+        }
+      ]
     }
   ]
 }
